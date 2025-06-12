@@ -84,3 +84,20 @@ input:focus {
         background-position: 0 50%;
     }
 }
+
+@media (max-width: 600px) {
+    .loginContainer {
+        width: 95%;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .imgLogin {
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
